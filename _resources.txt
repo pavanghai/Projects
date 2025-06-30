@@ -1,0 +1,52 @@
+Some Tips:
+  python is case-sensitive, as per pep8 class should be in PascalCase and (attributes(variables) and methods(functions)) 
+  should be in snake_case. PascalCase, snake_case, camelCase
+
+Ascii ART:
+  https://ascii.co.uk/art
+  https://www.asciiart.eu/
+  https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
+  https://asciiart.website/index.php?art=religion/judaism
+
+Flow charts:
+  D07a_Hangman: https://drive.google.com/file/d/1jD5Gw6nSx-dpMhHhUHqsWOkHzOOT7iGG/view?usp=sharing
+  D09_secretAuction: https://drive.google.com/file/d/1IFySBzf2dIjNkdg61KWaIXHRb-L0Oaux/view?usp=sharing
+  D11_BlackJack: https://drive.google.com/file/d/1DnrJNnPd48bnMGEGAsebW9fARn8UiOE1/view?usp=sharing
+
+Tools:
+  online list building tool: https://listmoz.com/
+  online color visualiser: https://www.colorspire.com/ or https://www.w3schools.com/colors/colors_rgb.asp
+  online code execution to visualize: https://pythontutor.com/visualize.html#mode=edit
+  Emoji's : https://emojipedia.org/hot-beverage/
+  Online Code Sharing: https://pastebin.com/
+  Open Trivia Database: https://opentdb.com/   <-- api for database. Used for quiz 
+  pokemon Database: https://pokemondb.net/pokedex/game/x-y
+  pythonPackages : https://pypi.org/
+    package eg: https://pypi.org/project/prettytable/
+    prettytable tutorial: https://code.google.com/archive/p/prettytable/wikis/Tutorial.wiki
+    turtle package documentation: https://docs.python.org/3/library/turtle.html
+    turtle color: https://cs111.wellesley.edu/reference/colors
+
+Keyboard Shortcuts:
+  PyCharm: https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html
+  Windows: https://support.microsoft.com/en-gb/windows/windows-keyboard-tips-and-tricks-588e0b72-0fff-6d3f-aeee-6e5116097942
+  Mac: https://support.apple.com/en-gb/guide/mac-help/mchlp1560/mac
+  
+PyCharm Features:
+  - Spell Check: hover over squiggly likes to correct it from the suggestions 
+  - More space: see multiple codes --> split screen --> right click on file name and select split and move right for side by side
+  - Built-in Linter: hover over the squiggly lines to see suggested changes as per pep 8 styleGuide --> https://peps.python.org/pep-0008/
+  - Local History: Last 12 Hours history  -->>  ToolBar --> VCS --> Local History --> Show History
+  - View Structure: Structure Pane -->> breaks code into variables and function for easy access
+  - Refactor Rename: Rename variable or function  all at once -->> RightClick on it and select Refactor --> Rename (make required changes) --> Do Refactor
+  - TODO: tracking of todo tasks
+
+ PyCharm Tips:
+  To switch between opened files and tool windows, use the Switcher Ctrl+Tab.
+  For navigation, press and hold Ctrl and use the Up and Down arrow keys or Tab and Shift+Tab, and Alt.
+  Press Delete or BackSpace to close an editor tab or hide a tool window
+
+YouTube Video Links
+  Machine Learning
+    1. Patrick Loeber - Machine Learning from Scratch
+      https://www.youtube.com/watch?v=ngLyX54e1LU&list=PLqnslRFeH2Upcrywf-u2etjdxxkL8nl7E
