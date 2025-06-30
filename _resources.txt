@@ -50,3 +50,12 @@ YouTube Video Links
   Machine Learning
     1. Patrick Loeber - Machine Learning from Scratch
       https://www.youtube.com/watch?v=ngLyX54e1LU&list=PLqnslRFeH2Upcrywf-u2etjdxxkL8nl7E
+
+GitHub Page Links
+  1. https://github.com/CoreyMSchafer/code_snippets
+  2. https://github.com/nikibhatt/DS-Unit-1-Sprint-1-Data-Wrangling-and-Storytelling
+  3. https://github.com/codebasics/PPL_Python_Training
+  4. https://github.com/jlyang1990/Spark_Python_Do_Big_Data_Analytics
+  5. https://github.com/flatcoke/flask-structure
+  6. https://github.com/bundickm/CheatSheets
+  7. https://github.com/justmarkham/pandas-videos
