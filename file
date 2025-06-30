@@ -57,3 +57,6 @@ NR==68980 {
   for (i=1; i<=NF; i++) printf "%s%s", header[i], (i<NF ? "\t" : "\n")
   for (i=1; i<=NF; i++) printf "%s%s", $i, (i<NF ? "\t" : "\n")
 }' filename | column -t -s $'\t'
+
+
+awk -v FS='\002' 'NR==1{for(i=1;i<=NF;i++)h[i]=$i;next} NR==68980{for(i=1;i<=NF;i++)printf "%s\t",h[i]; printf "\n"; for(i=1;i<=NF;i++)printf "%s\t",$i; print ""}' filename | column -t
