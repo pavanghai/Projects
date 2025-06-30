@@ -50,8 +50,13 @@ YouTube Video Links
   Machine Learning
     1. Patrick Loeber - Machine Learning from Scratch
       https://www.youtube.com/watch?v=ngLyX54e1LU&list=PLqnslRFeH2Upcrywf-u2etjdxxkL8nl7E
-
+    2. Intuitive Machine Learning
+      https://www.youtube.com/watch?v=0p0o5cmgLdE&list=PLkguTFqZ9THFtRU9V-8ocNyG8iyw4RXBe
+    3. https://www.youtube.com/@MaheshHuddar/playlists https://www.youtube.com/@VidyaMaheshHuddar/playlists
+      Support Vector Machine (SVM)
+      https://www.youtube.com/playlist?list=PL4gu8xQu0_5JdEqxU_FcY2x2aPte_BzF5
 GitHub Page Links
+  0. https://github.com/patrickloeber/MLfromscratch
   1. https://github.com/CoreyMSchafer/code_snippets
   2. https://github.com/nikibhatt/DS-Unit-1-Sprint-1-Data-Wrangling-and-Storytelling
   3. https://github.com/codebasics/PPL_Python_Training
@@ -59,3 +64,5 @@ GitHub Page Links
   5. https://github.com/flatcoke/flask-structure
   6. https://github.com/bundickm/CheatSheets
   7. https://github.com/justmarkham/pandas-videos
+  MachineLearning
+    1. https://github.com/Rohan582/Predicting-Stock-Price-Direction-Using-Support-Vector-Machines/blob/main/SVM%20Stock%20Prediction_INFOSYS.ipynb
