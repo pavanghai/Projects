@@ -1,0 +1,59 @@
+awk -v FS='\002' 'NR==1 {for (i=1; i<=NF; i++) header[i]=$i; next} NR==68980 {for (i=1; i<=NF; i++) print header[i] " : " $i}' filename
+
+
+awk -v FS='\002' 'NR==1 {for (i=1; i<=NF; i++) header[i]=$i; next}
+NR==68980 || NR==65450 || NR==45450 {
+  print "==== Line " NR " ===="
+  for (i=1; i<=NF; i++) print header[i] " : " $i
+  print ""
+}' filename
+
+
+awk -v FS='\002' '
+NR==1 {
+  for (i=1; i<=NF; i++) header[i]=$i
+  next
+}
+NR==68980 || NR==65450 || NR==45450 {
+  print "==== Line " NR " ===="
+  for (i=1; i<=NF; i++) print header[i] " : " $i
+  print ""
+}' filename
+
+
+awk -v FS='\002' 'NR==1 {for (i=1;i<=NF;i++) header[i]=$i; next} NR==68980 || NR==65450 || NR==45450 {print "==== Line " NR " ===="; for (i=1;i<=NF;i++) print header[i] " : " $i; print ""}' filename
+
+
+awk -v FS='\002' '
+NR==1 {
+  for (i=1; i<=NF; i++) header[i]=$i
+  next
+}
+NR==68980 {
+  for (i=1; i<=NF; i++) printf "%s%s", header[i], (i<NF ? " | " : "\n")
+  for (i=1; i<=NF; i++) printf "%s%s", $i, (i<NF ? " | " : "\n")
+}' filename
+
+
+awk -v FS='\002' '
+NR==1 {
+  for (i=1; i<=NF; i++) header[i]=$i
+  next
+}
+NR==68980 || NR==65450 || NR==45450 {
+  print "==== Line " NR " ===="
+  for (i=1; i<=NF; i++) printf "%s%s", header[i], (i<NF ? " | " : "\n")
+  for (i=1; i<=NF; i++) printf "%s%s", $i, (i<NF ? " | " : "\n")
+  print ""
+}' filename
+
+
+awk -v FS='\002' '
+NR==1 {
+  for (i=1; i<=NF; i++) header[i]=$i
+  next
+}
+NR==68980 {
+  for (i=1; i<=NF; i++) printf "%s%s", header[i], (i<NF ? "\t" : "\n")
+  for (i=1; i<=NF; i++) printf "%s%s", $i, (i<NF ? "\t" : "\n")
+}' filename | column -t -s $'\t'
